@@ -1,4 +1,4 @@
-div {
+div div{
     display: inline-block;
     margin-bottom: 35px;
     position: relative;
@@ -14,4 +14,8 @@ span{
     position: absolute;
     top: 0;
     right: 0;
+}
+
+div:nth-child(2) > span{
+    background-color: red;
 }
